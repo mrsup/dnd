@@ -6,6 +6,9 @@ font: 25px "Microsoft Yahei";
 border:1px solid #;
 height:240px;
 width:400px; 
+position:relative;
+bottom:150px;
+left:200px;
 }
 .mainbody{
   text-align:left;
