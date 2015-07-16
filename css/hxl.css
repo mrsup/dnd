@@ -29,6 +29,9 @@ font: 15px "Microsoft Yahei";
 border:1px solid #;
 height:490px;
 width:400px; 
+position:relative;
+bottom:200px;
+left:770px;
 }
 .img{
 height:340px;
