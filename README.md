@@ -3,7 +3,7 @@
 队不队（DND）团队是百度前端学院2015年暑假训练营WebApp班的一个自成立团队，团队成员共六名，皆致力于自学前端开发相关开发技术！
 ## 项目说明
 本项目系微型项目，主体为单一项目页面，主要包含DND团队展示及团队成员展示。  
-主页地址：[DND](http://mrsup.github.io/dnd/index.html) : `http://mrsup.github.io/dnd/index.html`
+主页地址：[DND](http://mrsup.github.io/dnd/index.html) : `http://mrsup.github.io/dnd/index.html`  
 项目的文件结构如下：  
 ```html
 dnd  
