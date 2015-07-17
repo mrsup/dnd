@@ -1,0 +1,43 @@
+/* CSS Document */
+a{ text-decoration:none;}
+a:hover{ text-decoration:underline;}
+.main1{
+font: 25px "Microsoft Yahei"; 
+border:1px solid #;
+height:240px;
+width:400px; 
+position:relative;
+bottom:130px;
+left:200px;
+}
+.mainbody{
+  text-align:left;
+}
+h1{
+  font-size:35px;
+  color:red;
+}
+li p span{
+  color:red;
+}
+li span{
+  color:blue;
+  font: 18px
+}
+.main2{
+font: 15px "Microsoft Yahei"; 
+border:1px solid #;
+height:490px;
+width:400px; 
+position:relative;
+bottom:460px;
+left:580px;
+}
+.img{
+height:340px;
+width:330px;
+display:block;
+overflow:hidden;
+position:relative;
+left:35px;
+}

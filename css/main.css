@@ -1,2 +1,9 @@
 @charset "UTF-8";
-.section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;}
+.section{
+	text-align: center;
+	font-family: "Microsoft Yahei";
+	color:#fff;
+}
+h3{
+	font-size: 48px;
+}
