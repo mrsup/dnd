@@ -2,42 +2,42 @@
 a{ text-decoration:none;}
 a:hover{ text-decoration:underline;}
 .main1{
-font: 25px "Microsoft Yahei"; 
-border:1px solid #;
-height:240px;
-width:410px; 
-position:absolute;
-left: 210px;
-top: 85px;
+	font: 25px "Microsoft Yahei"; 
+	border:1px solid #;
+	height:240px;
+	width:410px; 
+	position:absolute;
+	left: 210px;
+	top: 85px;
 }
 .mainbody{
-  text-align:left;
+	text-align:left;
 }
 h1{
-  font-size:35px;
-  color:red;
+	font-size:35px;
+	color:red;
 }
 li p span{
-  color:red;
+	color:red;
 }
 li span{
-  color:blue;
-  font: 18px
+	color:blue;
+	font: 18px
 }
 .main2{
-font: 15px "Microsoft Yahei"; 
-border:1px solid #;
-height:490px;
-width:410px; 
-position: relative;
-left:580px;
-bottom:465px;
+	font: 15px "Microsoft Yahei"; 
+	border:1px solid #;
+	height:490px;
+	width:410px; 
+	position: relative;
+	left:580px;
+	bottom:465px;
 }
 .img{
-height:340px;
-width:330px;
-display:block;
-overflow:hidden;
-position: relative;
-left:35px;
+	height:340px;
+	width:330px;
+	display:block;
+	overflow:hidden;
+	position: relative;
+	left:35px;
 }
