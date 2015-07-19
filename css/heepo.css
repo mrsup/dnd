@@ -15,24 +15,28 @@
 	background-color: white;
 	position: relative;
 	overflow: hidden;
-	padding: 18px;
+	margin-top: 4%;
+	padding: 25px;
 }
 
-.about .teamName{position: absolute;left: 20px;top: 10px;font-weight: bold;}
-.about .logo{position: absolute;right: 57px;top: 12px;}
+.about .teamName{position: absolute;left: 20px;top: 9px;font-weight: bold;}
+.about .logo{position: absolute;right: 20px;top: 12px;}
 .about .logo a{text-decoration: none;}
 
 .under{
-	width: 360px;
-	padding: 20px;
-	font-size: 20px;
-	background-color: #5DB2A2;
-	border: 1px solid #ccc;
-	border-radius: 20px;
-	margin-left: 200px;
-	margin-top: 70px;
-	margin-bottom: 20px;
-	line-height: 1.5em;
+	width: 33%;
+	height: 33%;
+  	padding: 20px;
+  	font-size: 20px;
+  	color: white;
+  	background-color: #5DB2A2;
+  	border: 1px solid #ccc;
+  	border-radius: 20px;
+  	margin-left: 15%;
+  	margin-top: 7%;
+  	margin-bottom: 20px;
+  	line-height: 1.5em;
+  	text-align: center;
 }
 
 
@@ -41,17 +45,19 @@
 
 
 .post{
-	width: 360px;
+	width: 33%;
+	height: 33%;
 	padding: 20px;
 	font-size: 20px;
+	color: white;
 	background-color: #5DB2A2;
 	border: 1px solid #ccc;
 	border-radius: 20px;
-	margin-right: 200px;
-	float: right;
-	margin-top: 50px;
+	margin-left: 52%;
+	margin-top: 6%;
 	margin-bottom: 50px;
 	line-height: 1.5em;
+	text-align: center;
 }
 
 
