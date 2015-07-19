@@ -23,10 +23,25 @@ dnd
 ## 编码规范
 为了更合理与优雅的进行项目开发，需要团队各成员按照一定的编码规范  
 ### HTML规范
-尽量参照[HTML规范](http://www.inets.wang/wo/show/8.html)书写代码
+尽量参照[HTML规范](http://www.inets.wang/wo/show/8.html)书写代码  
 ### CSS规范
 尽量参照[CSS规范](http://www.inets.wang/wo/show/9.html)书写代码
 ### JS规范
 尽量参照[JS规范](http://www.inets.wang/wo/show/10.html)书写代码
+## 后期方向
+本项目主页随着团队成员的技术进步可进一步完善优化，分别就HTML,CSS,JS三个方面拟定于以下几个方向发展：  
+### HTML方向
+1. 完善页面结构（使用语义化标签，SEO优化）
+2. CSS样式和JS代码完全分离，并于合理的位置引用，以达到页面性能优化的效果  
+
+### CSS方向
+1. 使用CSS3新特性，开发动画效果
+2. 书写更具有兼容性的样式代码  
+
+### JS方向
+1. 自主重构整页切换插件（具体可参考[慕课网：全屏切换效果](http://www.imooc.com/learn/374)）
+2. 开发更具交互性的效果，加强用户体验  
+
 ## 开发日志
-2015年07月15日 明确[热身任务](https://github.com/baidu-ife/ife/blob/master/2015_summer/task/warm_up.md),由[徐呵哈](https://github.com/mrsup)新建项目仓库和GitHub Pages.
+2015年07月15日 明确[热身任务](https://github.com/baidu-ife/ife/blob/master/2015_summer/task/warm_up.md),由[徐呵哈](https://github.com/mrsup)新建项目仓库和GitHub Pages.  
+2015年07月16-18日 由团队各成员协作编辑页面代码，使用GitHub提交合并.
