@@ -95,10 +95,10 @@ ul {
 	background: #992211;
 }
 .page4 {
-	background: #ff00ff;
+	background: #CED9DB;
 }
 .page5 {
-	background: #00ff00;
+	background: #77757E;
 }
 .page6 {
 	background: #ff00ff;
@@ -109,21 +109,22 @@ ul {
 #navBar {
 	z-index: 3;
 	position: absolute;
-	top: 10%;
-	right: 3%;
+	top: 26%;
+	right: 2%;
 }
 #navBar .active {
-	background: #ccc;
+	background: black;
 }
 #navBar li {
 	cursor: pointer;
-	margin-bottom: 10px;
-	transition: all .7s ease;
-	border-radius: 50%;
-	line-height: 40px;
-	text-align: center;
-	width: 40px;
-	height: 40px;
+  	margin: 300% 0;
+  	transition: all .7s ease;
+ 	background-color: #92918A;
+  	border-radius: 50%;
+  	line-height: 10px;
+  	text-align: center;
+  	width: 10px;
+  	height: 10px;
 }
 .main{
 	margin: 15% auto;
