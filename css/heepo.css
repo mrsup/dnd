@@ -24,6 +24,7 @@
 	display: block;
 	padding: 2em 0 1.5em;
 	font-size: 2em;
+	text-shadow: 1px 1px 10px grey;
 }
 .about img {
 	width: 2em;
@@ -65,10 +66,11 @@
 	float: right;
 	margin: -3em -4.5em 0 0;
 }
-.heepo section img {
+.under img, .post img {
 	width: 3em;
 	height: 3em;
 }
+
 
 @media only screen and (min-width: 20em) {
 
@@ -83,12 +85,53 @@
 	font-size: 1em;
   	line-height: 2em;
  	padding: 1.5em 0.7em;
+ 	border: 1px solid #77757E;
+	background-color: #77757E;
+	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
 }
 .under {
-  	margin: 2.5em 0 0 17%;
+  	margin: 2.5em 0 0 55%;
+  	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
+}
+.under p, .post p {
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
+}
+.under img, .post img {
+	width: 6em;
+	height: 6em;
+	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
+}
+.under:hover{
+		margin: 2.5em 0 0 17%;
+		background-color: #5DB2A2;
+  		border: 1px solid #ccc;
+	}
+	
+.under:hover p, .post:hover p {
+		opacity: 1;
+	}
+.under:hover img {
+	width: 3em;
+	height: 3em;
 }
 .post {
 	margin-top: 2.5em;
+	right: 50%;
+}
+
+.post:hover {
+	right: 17%;
+	background-color: #5DB2A2;
+  	border: 1px solid #ccc;
+}
+.post:hover img {
+	width: 3em;
+	height: 3em;
 }
 
 }
@@ -140,16 +183,42 @@
 		font-size: 1.3em;
 		border-radius: 1em;
 	}
-	.under {
-		margin-top: 5em;
+	/*.heepo section{
+		border: 1px solid #77757E;
+		background-color: #77757E;
+		-webkit-transition: all 1s ease-in-out;
+		transiton: all 1s ease-in-out;
 	}
+	.under {
+		margin: 5em 0 0 53%;
+		-webkit-transition: all 1s ease-in-out;
+		transiton: all 1s ease-in-out;
+	}
+	.under p {
+		opacity: 0;
+		-webkit-transition: all 1s linear;
+		transiton: all 1s linear;
+	}
+	.under:hover {
+		margin: 5em 0 0 15%;
+		background-color: #5DB2A2;
+  		border: 1px solid #ccc;
+	}
+	
+	.under:hover p {
+		opacity: 1;
+	}
+	*/
 	.under img {
 		margin: -3em 0 0 -5em;
 	}
+
+
 	.post {
 		margin-top: 5em;
 	}
 	.post img {
 		margin: -3em -5em 0 0;
 	}
+
 }
