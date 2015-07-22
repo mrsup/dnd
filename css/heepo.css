@@ -74,10 +74,10 @@
 
 .about .teamName {
 	display: block;
-	padding: 2em 0 1em;
+	padding: 2em 0 0.5em;
 }
 .about {
-	height: 14em;
+	height: 11em;
 }
 .heepo section{
 	font-size: 1em;
