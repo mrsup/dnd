@@ -1,64 +1,155 @@
 .heepo, article, section, header, p{
-	margin: 0 ;
-	padding: 0 ;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-.heepo{	position: relative; 
-		overflow: hidden;
-	  	font-family: Georgia, "Times New Roman", "Microsoft YaHei", 
-	  				"微软雅黑", STXihei, "华文细黑", serif;
-	  }
-.about{
-	width: 100%;
-	height: 14px;
-	font-size: 25px;
-	color: black;
-	background-color: white;
-	position: relative;
-	overflow: hidden;
-	margin-top: 4%;
-	padding: 25px;
-}
-
-.about .teamName{position: absolute;left: 20px;top: 9px;font-weight: bold;}
-.about .logo{position: absolute;right: 20px;top: 12px;}
-.about .logo a{text-decoration: none;}
-
-.under{
-	width: 33%;
-	height: 33%;
-  	padding: 20px;
-  	font-size: 20px;
-  	color: white;
-  	background-color: #5DB2A2;
-  	border: 1px solid #ccc;
-  	border-radius: 20px;
-  	margin-left: 15%;
-  	margin-top: 7%;
-  	margin-bottom: 20px;
-  	line-height: 1.5em;
-  	text-align: center;
-}
-
-
-.under img{float: left; margin: -50px 0 0 -100px;}
-
-
-
-.post{
-	width: 33%;
-	height: 33%;
-	padding: 20px;
-	font-size: 20px;
-	color: white;
-	background-color: #5DB2A2;
-	border: 1px solid #ccc;
-	border-radius: 20px;
-	margin-left: 52%;
-	margin-top: 6%;
-	margin-bottom: 50px;
-	line-height: 1.5em;
+.heepo {
+	margin: 0 auto;
 	text-align: center;
+	font-family: Georgia, "Microsoft YaHei", 
+	  				"微软雅黑", STXihei, "华文细黑", serif;
+	position: relative;
+}
+.about {
+	background-color: #F0EDEC;
+	font-weight: bold;
+}
+.about .teamName {
+	display: block;
+	padding: 2em 0 1.5em;
+	font-size: 2em;
+}
+.about img {
+	width: 2em;
+	height: 2em;
 }
 
+.heepo section{
+	background-color: #5DB2A2;
+  	border: 1px solid #ccc;
+  	width: 75%;
+  	line-height: 2em;
+  	padding: 0.7em;
+  	border-radius: 1.5em;
+  	color: white;
+}
+.under {
+  	margin: 5em 0 0 17%;
+}
+.under img{
+	float: left;
+	margin: -3.3em 0 0 -4.5em;
+}
+.clearfix:after {
+	content:" "; 
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+.clearfix {
+	*zoom:1;
+}
+.post {
+	position: absolute;
+	right: 17%;
+	margin-top: 5em;
+}
+.post img{
+	float: right;
+	margin: -3em -4.5em 0 0;
+}
+.heepo section img {
+	width: 3em;
+	height: 3em;
+}
 
-.post img{float: right; margin: -50px -100px 0 0;}
+@media only screen and (min-width: 20em) {
+
+.about .teamName {
+	display: block;
+	padding: 2em 0 1em;
+}
+.about {
+	height: 14em;
+}
+.heepo section{
+	font-size: 1em;
+  	line-height: 2em;
+ 	padding: 2em 0.7em;
+}
+.under {
+  	margin: 4em 0 0 17%;
+}
+.post {
+	margin-top: 4em;
+}
+
+}
+
+@media only screen and (min-width: 30em) {
+	.about {
+		height: 3em;
+	}
+	.about .teamName {
+		padding: 0;
+		font-size: 1em;
+		position: absolute;
+		left: 1.5em;
+		top: 0.8em;
+	}
+	.about .logo {
+		position: absolute;
+		right: 1.5em;
+		top: 0.6em;
+	}
+	.heepo section {
+  		line-height: 1.5em;
+ 		padding: 1em 1em;
+	}
+	.under {
+		margin: 4em 0 0 15%;
+	}
+	.post {
+		margin-top: 3em;
+	}
+
+}
+
+@media only screen and (min-width: 48em) {
+	.about {
+		margin-top: 3em;
+		height: 3.5em;
+	}
+	.about .teamName {
+		font-size: 1.5em;
+		position: absolute;
+		top: 0.5em;
+	}
+	.about img {
+		margin-top: 0.3em;
+	}
+	.heepo section {
+		width: 35%;
+		font-size: 1.3em;
+		border-radius: 1em;
+	}
+	.under {
+		margin-top: 5em;
+	}
+	.under img {
+		margin: -3em 0 0 -5em;
+	}
+	.post {
+		margin-top: 5em;
+	}
+	.post img {
+		margin: -3em -5em 0 0;
+	}
+}
