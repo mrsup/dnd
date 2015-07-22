@@ -109,7 +109,7 @@ ul {
 #navBar {
 	z-index: 3;
 	position: absolute;
-	top: 26%;
+	top: 25%;
 	right: 2%;
 }
 #navBar .active {
@@ -117,11 +117,11 @@ ul {
 }
 #navBar li {
 	cursor: pointer;
-  	margin: 300% 0;
+  	margin: 1.5em 0;
   	transition: all .7s ease;
  	background-color: #92918A;
   	border-radius: 50%;
-  	line-height: 10px;
+
   	text-align: center;
   	width: 10px;
   	height: 10px;
