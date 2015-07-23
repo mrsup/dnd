@@ -17,28 +17,26 @@
 	position: relative;
 }
 .about {
-	background-color: #F0EDEC;
+	background-color: #C7C2B8;
 	font-weight: bold;
 }
 .about .teamName {
-	display: block;
-	padding: 2em 0 1.5em;
-	font-size: 2em;
-	text-shadow: 1px 1px 10px grey;
+	width: 6em;
+	height: 1em;
 }
-.about img {
+.logo img {
 	width: 2em;
 	height: 2em;
 }
 
 .heepo section{
 	background-color: #5DB2A2;
-  	border: 1px solid #ccc;
+  	border: 1px solid #C7C2B8;
   	width: 75%;
   	line-height: 2em;
   	padding: 0.7em;
   	border-radius: 1.5em;
-  	color: white;
+  	color: #765555;
 }
 .under {
   	margin: 5em 0 0 17%;
@@ -75,8 +73,9 @@
 @media only screen and (min-width: 20em) {
 
 .about .teamName {
-	display: block;
-	padding: 1.6em 0 0.5em;
+	margin: 3em 0 1.5em;
+	width: 18em;
+	height: 3em;
 }
 .about {
 	height: 11em;
@@ -108,8 +107,7 @@
 }
 .under:hover{
 		margin: 2.5em 0 0 17%;
-		background-color: #5DB2A2;
-  		border: 1px solid #ccc;
+		background-color: #C7C2B8;
 	}
 	
 .under:hover p, .post:hover p {
@@ -126,8 +124,7 @@
 
 .post:hover {
 	right: 17%;
-	background-color: #5DB2A2;
-  	border: 1px solid #ccc;
+	background-color: #C7C2B8;
 }
 .post:hover img {
 	width: 3em;
