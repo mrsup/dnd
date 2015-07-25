@@ -31,7 +31,6 @@
 
 .heepo section{
 	background-color: #5DB2A2;
-  	border: 1px solid #C7C2B8;
   	width: 75%;
   	line-height: 2em;
   	padding: 0.7em;
@@ -84,7 +83,6 @@
 	font-size: 1em;
   	line-height: 2em;
  	padding: 1.5em 0.7em;
- 	border: 1px solid #77757E;
 	background-color: #77757E;
 	-webkit-transition: all 1s ease-in-out;
 	transiton: all 1s ease-in-out;
@@ -119,7 +117,7 @@
 }
 .post {
 	margin-top: 2.5em;
-	right: 50%;
+	right: 52%;
 }
 
 .post:hover {
@@ -138,27 +136,67 @@
 		height: 3em;
 	}
 	.about .teamName {
+		margin: 0;
 		padding: 0;
+		width: 12em;
+		height: 2em;
 		font-size: 1em;
 		position: absolute;
 		left: 1.5em;
-		top: 0.8em;
+		top: 0.5em;
 	}
 	.about .logo {
 		position: absolute;
 		right: 1.5em;
 		top: 0.6em;
 	}
-	.heepo section {
-  		line-height: 1.5em;
- 		padding: 1em 1em;
+	.heepo section{
+	background-color: #77757E;
+	font-size: 0.8em;
+	margin: 3em 0 0 0;
+	padding: 0;
+	width: 39%;
+	position: absolute;
+	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
 	}
 	.under {
-		margin: 4em 0 0 15%;
+		left: 8%;
 	}
 	.post {
-		margin-top: 3em;
+		right: 8%;
 	}
+	.under img {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	.under:hover, .post:hover {
+		margin: 5em 0 0 0;
+		padding: 2em 2em 0 2em;
+	}
+	.under:hover {
+		
+	}
+	.post:hover {
+		right: 8%;
+	}
+	.under:hover img{
+		margin: 0 0 0 -105%;
+		width: 2em;
+		height: 2em;
+	}
+	.post img {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	.post:hover img{
+		margin: 0 -105% 0 0;
+		width: 2em;
+		height: 2em;
+	}
+
 
 }
 
@@ -168,54 +206,27 @@
 		height: 3.5em;
 	}
 	.about .teamName {
-		font-size: 1.5em;
-		position: absolute;
-		top: 0.5em;
+		top: 0.8em;
 	}
 	.about img {
 		margin-top: 0.3em;
 	}
-	.heepo section {
-		width: 35%;
-		font-size: 1.3em;
-		border-radius: 1em;
+	.heepo section{
+		top: 8em;
+		font-size: 1em;
 	}
-	/*.heepo section{
-		border: 1px solid #77757E;
-		background-color: #77757E;
+	.under img, .post img {
+		width: 7em;
+		height: 7em;
 		-webkit-transition: all 1s ease-in-out;
 		transiton: all 1s ease-in-out;
 	}
-	.under {
-		margin: 5em 0 0 53%;
-		-webkit-transition: all 1s ease-in-out;
-		transiton: all 1s ease-in-out;
+	.under:hover, .post:hover {
+		width: 33%;
+		
 	}
-	.under p {
-		opacity: 0;
-		-webkit-transition: all 1s linear;
-		transiton: all 1s linear;
+	.under:hover img, .post:hover img {
+		width: 2em;
+		height: 2em;
 	}
-	.under:hover {
-		margin: 5em 0 0 15%;
-		background-color: #5DB2A2;
-  		border: 1px solid #ccc;
-	}
-	
-	.under:hover p {
-		opacity: 1;
-	}
-	*/
-	.under img {
-		margin: -3em 0 0 -5em;
-	}
-
-
-	.post {
-		margin-top: 5em;
-	}
-	.post img {
-		margin: -3em -5em 0 0;
-	}
-
 }
