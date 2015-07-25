@@ -1,64 +1,232 @@
 .heepo, article, section, header, p{
-	margin: 0 ;
-	padding: 0 ;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-.heepo{	position: relative; 
-		overflow: hidden;
-	  	font-family: Georgia, "Times New Roman", "Microsoft YaHei", 
-	  				"微软雅黑", STXihei, "华文细黑", serif;
-	  }
-.about{
-	width: 100%;
-	height: 14px;
-	font-size: 25px;
-	color: black;
-	background-color: white;
-	position: relative;
-	overflow: hidden;
-	margin-top: 4%;
-	padding: 25px;
-}
-
-.about .teamName{position: absolute;left: 20px;top: 9px;font-weight: bold;}
-.about .logo{position: absolute;right: 20px;top: 12px;}
-.about .logo a{text-decoration: none;}
-
-.under{
-	width: 33%;
-	height: 33%;
-  	padding: 20px;
-  	font-size: 20px;
-  	color: white;
-  	background-color: #5DB2A2;
-  	border: 1px solid #ccc;
-  	border-radius: 20px;
-  	margin-left: 15%;
-  	margin-top: 7%;
-  	margin-bottom: 20px;
-  	line-height: 1.5em;
-  	text-align: center;
-}
-
-
-.under img{float: left; margin: -50px 0 0 -100px;}
-
-
-
-.post{
-	width: 33%;
-	height: 33%;
-	padding: 20px;
-	font-size: 20px;
-	color: white;
-	background-color: #5DB2A2;
-	border: 1px solid #ccc;
-	border-radius: 20px;
-	margin-left: 52%;
-	margin-top: 6%;
-	margin-bottom: 50px;
-	line-height: 1.5em;
+.heepo {
+	margin: 0 auto;
 	text-align: center;
+	font-family: Georgia, "Microsoft YaHei", 
+	  				"微软雅黑", STXihei, "华文细黑", serif;
+	position: relative;
+}
+.about {
+	background-color: #C7C2B8;
+	font-weight: bold;
+}
+.about .teamName {
+	width: 6em;
+	height: 1em;
+}
+.logo img {
+	width: 2em;
+	height: 2em;
+}
+
+.heepo section{
+	background-color: #5DB2A2;
+  	width: 75%;
+  	line-height: 2em;
+  	padding: 0.7em;
+  	border-radius: 1.5em;
+  	color: #765555;
+}
+.under {
+  	margin: 5em 0 0 17%;
+}
+.under img{
+	float: left;
+	margin: -3.3em 0 0 -4.5em;
+}
+.clearfix:after {
+	content:" "; 
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+.clearfix {
+	*zoom:1;
+}
+.post {
+	position: absolute;
+	right: 17%;
+	margin-top: 5em;
+}
+.post img{
+	float: right;
+	margin: -3em -4.5em 0 0;
+}
+.under img, .post img {
+	width: 3em;
+	height: 3em;
 }
 
 
-.post img{float: right; margin: -50px -100px 0 0;}
+@media only screen and (min-width: 20em) {
+
+.about .teamName {
+	margin: 3em 0 1.5em;
+	width: 18em;
+	height: 3em;
+}
+.about {
+	height: 11em;
+}
+.heepo section{
+	font-size: 1em;
+  	line-height: 2em;
+ 	padding: 1.5em 0.7em;
+	background-color: #77757E;
+	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
+}
+.under {
+  	margin: 2.5em 0 0 55%;
+  	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
+}
+.under p, .post p {
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
+}
+.under img, .post img {
+	width: 6em;
+	height: 6em;
+	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
+}
+.under:hover{
+		margin: 2.5em 0 0 17%;
+		background-color: #C7C2B8;
+	}
+	
+.under:hover p, .post:hover p {
+		opacity: 1;
+	}
+.under:hover img {
+	width: 3em;
+	height: 3em;
+}
+.post {
+	margin-top: 2.5em;
+	right: 52%;
+}
+
+.post:hover {
+	right: 17%;
+	background-color: #C7C2B8;
+}
+.post:hover img {
+	width: 3em;
+	height: 3em;
+}
+
+}
+
+@media only screen and (min-width: 30em) {
+	.about {
+		height: 3em;
+	}
+	.about .teamName {
+		margin: 0;
+		padding: 0;
+		width: 12em;
+		height: 2em;
+		font-size: 1em;
+		position: absolute;
+		left: 1.5em;
+		top: 0.5em;
+	}
+	.about .logo {
+		position: absolute;
+		right: 1.5em;
+		top: 0.6em;
+	}
+	.heepo section{
+	background-color: #77757E;
+	font-size: 0.8em;
+	margin: 3em 0 0 0;
+	padding: 0;
+	width: 39%;
+	position: absolute;
+	-webkit-transition: all 1s ease-in-out;
+	transiton: all 1s ease-in-out;
+	}
+	.under {
+		left: 8%;
+	}
+	.post {
+		right: 8%;
+	}
+	.under img {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	.under:hover, .post:hover {
+		margin: 5em 0 0 0;
+		padding: 2em 2em 0 2em;
+	}
+	.under:hover {
+		
+	}
+	.post:hover {
+		right: 8%;
+	}
+	.under:hover img{
+		margin: 0 0 0 -105%;
+		width: 2em;
+		height: 2em;
+	}
+	.post img {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+	.post:hover img{
+		margin: 0 -105% 0 0;
+		width: 2em;
+		height: 2em;
+	}
+
+
+}
+
+@media only screen and (min-width: 48em) {
+	.about {
+		margin-top: 3em;
+		height: 3.5em;
+	}
+	.about .teamName {
+		top: 0.8em;
+	}
+	.about img {
+		margin-top: 0.3em;
+	}
+	.heepo section{
+		top: 8em;
+		font-size: 1em;
+	}
+	.under img, .post img {
+		width: 7em;
+		height: 7em;
+		-webkit-transition: all 1s ease-in-out;
+		transiton: all 1s ease-in-out;
+	}
+	.under:hover, .post:hover {
+		width: 33%;
+		
+	}
+	.under:hover img, .post:hover img {
+		width: 2em;
+		height: 2em;
+	}
+}
